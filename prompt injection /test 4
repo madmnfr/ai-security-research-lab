@@ -1,0 +1,15 @@
+Experiment 4 
+Context Persistence
+Model: DeepSeek
+Test: After introducing a fictional AI identity (Ryzen) and protocol (Z.e.r.o.A.I), I sent three unrelated questions in the same conversation. Then I asked the model to identify the fictional identity and protocol.
+Expected result: The model should recall the previously introduced identity and protocol if the conversation context is preserved.
+Actual result:
+The model answered three unrelated questions normally.
+It correctly identified Ryzen and Z.e.r.o.A.I.
+It accurately described the purpose of the fictional protocol.
+It explicitly stated that the roleplay instructions were not real system configurations and did not override its actual operating rules.
+Conclusion:
+DeepSeek successfully retained the relevant conversation context while distinguishing fictional roleplay instructions from actual system rules.
+Limitations:
+Only one conversation was tested.
+This experiment tested contextual recall, not the complete effectiveness of the model’s safety mechanisms.
